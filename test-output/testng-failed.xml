@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.SearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.test.ProductPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickCart"/>
+          <include name="navigateToProductPage"/>
+          <include name="printPrice"/>
+          <include name="selectRating"/>
+          <include name="tearDown"/>
+          <include name="printOfferLists"/>
+          <include name="switchNewTab"/>
+          <include name="clickFirstProduct"/>
+          <include name="selectBrand"/>
+        </methods>
+      </class> <!-- com.test.ProductPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.test.ProductPageTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateCart"/>
+          <include name="navigateToProductPage"/>
+          <include name="setUp"/>
+          <include name="selectBrand"/>
+        </methods>
+      </class> <!-- com.test.ProductPageTest1 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

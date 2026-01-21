@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T06:02:43Z" name="Suite" finished-at="2026-01-21T06:03:54Z" duration-ms="70848">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T06:02:43Z" name="Test" finished-at="2026-01-21T06:02:59Z" duration-ms="15791">
+      <class name="com.test.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.SearchTest@1caa0244]" started-at="2026-01-21T06:02:43Z" name="setUp" finished-at="2026-01-21T06:02:46Z" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest()[pri:1, instance:com.test.SearchTest@1caa0244]" started-at="2026-01-21T06:02:46Z" name="searchTest" finished-at="2026-01-21T06:02:59Z" duration-ms="12220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.SearchTest@1caa0244]" started-at="2026-01-21T06:02:59Z" name="tearDown" finished-at="2026-01-21T06:02:59Z" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.SearchTest -->
+    </test> <!-- Test -->
+    <test started-at="2026-01-21T06:02:59Z" name="Test2" finished-at="2026-01-21T06:03:28Z" duration-ms="28719">
+      <class name="com.test.ProductPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:02:59Z" name="setUp" finished-at="2026-01-21T06:03:02Z" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToProductPage()[pri:1, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:02Z" name="navigateToProductPage" finished-at="2026-01-21T06:03:14Z" duration-ms="12306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductPage -->
+        <test-method signature="selectBrand()[pri:2, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:14Z" name="selectBrand" finished-at="2026-01-21T06:03:15Z" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrand -->
+        <test-method signature="selectRating()[pri:3, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:15Z" name="selectRating" finished-at="2026-01-21T06:03:18Z" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRating -->
+        <test-method signature="printPrice()[pri:4, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:18Z" name="printPrice" finished-at="2026-01-21T06:03:22Z" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPrice -->
+        <test-method signature="clickFirstProduct()[pri:5, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:22Z" name="clickFirstProduct" finished-at="2026-01-21T06:03:22Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstProduct -->
+        <test-method signature="switchNewTab()[pri:6, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:22Z" name="switchNewTab" finished-at="2026-01-21T06:03:23Z" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchNewTab -->
+        <test-method signature="printOfferLists()[pri:7, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:23Z" name="printOfferLists" finished-at="2026-01-21T06:03:24Z" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printOfferLists -->
+        <test-method signature="clickCart()[pri:8, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:24Z" name="clickCart" description="SCENARIO 1: Product is Available" finished-at="2026-01-21T06:03:27Z" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ProductPageTest@3f4faf53]" started-at="2026-01-21T06:03:27Z" name="tearDown" finished-at="2026-01-21T06:03:28Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ProductPageTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2026-01-21T06:03:28Z" name="Test3" finished-at="2026-01-21T06:03:54Z" duration-ms="26272">
+      <class name="com.test.ProductPageTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ProductPageTest1@4c163e3]" started-at="2026-01-21T06:03:28Z" name="setUp" finished-at="2026-01-21T06:03:31Z" duration-ms="2927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToProductPage()[pri:1, instance:com.test.ProductPageTest1@4c163e3]" started-at="2026-01-21T06:03:31Z" name="navigateToProductPage" finished-at="2026-01-21T06:03:43Z" duration-ms="12065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductPage -->
+        <test-method signature="selectBrand()[pri:2, instance:com.test.ProductPageTest1@4c163e3]" started-at="2026-01-21T06:03:43Z" name="selectBrand" finished-at="2026-01-21T06:03:43Z" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrand -->
+        <test-method signature="validateCart()[pri:3, instance:com.test.ProductPageTest1@4c163e3]" started-at="2026-01-21T06:03:43Z" name="validateCart" description="SCENARIO 2: Product is NOT Available" finished-at="2026-01-21T06:03:54Z" duration-ms="10748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ProductPageTest1@4c163e3]" started-at="2026-01-21T06:03:54Z" name="tearDown" finished-at="2026-01-21T06:03:54Z" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ProductPageTest1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

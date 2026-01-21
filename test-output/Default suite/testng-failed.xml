@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.ProductPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickCart"/>
+          <include name="navigateToProductPage"/>
+          <include name="printPrice"/>
+          <include name="selectRating"/>
+          <include name="tearDown"/>
+          <include name="printOfferLists"/>
+          <include name="switchNewTab"/>
+          <include name="clickFirstProduct"/>
+          <include name="selectBrand"/>
+        </methods>
+      </class> <!-- com.test.ProductPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
